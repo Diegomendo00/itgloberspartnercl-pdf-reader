@@ -15,7 +15,7 @@ const PdfReader = ({ pdfUrl, width, height} : Props) => {
 
   return (
     mounted && (
-      <div className="flex justify-center">
+      <div className="flex justify-center b--moon-gray ba" >
         <object
             data = {pdfUrl}
             type = "aplication/pdf"
